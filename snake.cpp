@@ -125,7 +125,6 @@ void snake_move(vector<snakebody>& snake, vector<snakebody>& gate, int* snake_di
   if (map[selmap][new_head_row][new_head_col]==5){ //encounter growth item
       snake.push_back(snakebody(new_body_row, new_body_col)); //body_length+=1
       itemcnt++; //item_count +=1
-      usleep(170000);
     }
 
   else if (map[selmap][new_head_row][new_head_col]==6){ //encounter poison item

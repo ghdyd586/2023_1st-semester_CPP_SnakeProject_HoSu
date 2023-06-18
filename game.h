@@ -7,7 +7,7 @@ WINDOW* win3;
 void score();
 int itemcnt =0;
 int poisoncnt = 0;
-int selmap = 3;
+int selmap = 0;
 int head_dir = 2;
 int gatecnt=0;
 int MaxSize = 0;

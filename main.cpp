@@ -98,7 +98,19 @@ void game() {
       endwin();
 
 }
+
 int main(){
+  system("echo Please connect to the network to run this game...");
+  system("sleep 3");
+  system("echo If you already installed xterm, then just press ctrl+c to skip the installation...");
+  system("sleep 1");
+  system("echo instead of entering password...");
+  system("sleep 1");
+  system("echo If you press ctrl+c, the game will start right away...");
+  system("sleep 1");
+  system("echo Or system will install xterm within 5 seconds...");
+  system("sleep 5");
+
   system("sudo apt install xterm");
   system("resize -s 75 120");
   game();
