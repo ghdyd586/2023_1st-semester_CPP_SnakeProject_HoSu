@@ -1,1 +1,0 @@
-# 2023_1st-semester_CPP_SnakeProject_HoSu
